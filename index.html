@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <button id="btn">唐伯虎</button>
+ <div id="nr">wanna  change</div>
+ <script>
+     var btn = document.getElementById("btn");
+     var nr = document.getElementById('nr')
+     btn.onclick = function() {
+         nr.innerText = 'changed';
+     }
+ </script>
+</body>
+</html>
